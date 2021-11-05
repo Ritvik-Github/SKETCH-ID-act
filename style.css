@@ -1,0 +1,30 @@
+body{
+    background: #fbd139;
+}
+
+h1{
+    color: blue;
+    background-color: cornsilk;
+}
+
+#show_sketch{
+    float: right !important;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation: example 10s infinite !important;
+}
+
+@keyframes example {
+    0%{box-shadow: 0px 0px 38px red;}
+    11%{box-shadow: 0px 0px 38px orange;}
+    22%{box-shadow: 0px 0px 38px yellow;}
+    33%{box-shadow: 0px 0px 38px rgb(0, 255, 0);}
+    44%{box-shadow: 0px 0px 38px green;}
+    55%{box-shadow: 0px 0px 38px rgb(0, 255, 242);}
+    66%{box-shadow: 0px 0px 38px rgb(47, 0, 255);}
+    77%{box-shadow: 0px 0px 38px purple;}
+    100%{box-shadow: 0px 0px 38px red;}
+}
